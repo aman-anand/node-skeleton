@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "NODE_ENV=development nodemon ./bin/www",
-    "debug": "NODE_ENV=development DEBUG=commonServices node ./bin/www",
-    "prod": "NODE_ENV=production pm2 start ./bin/www  --name <ENTER NAME HERE>",
+    "start": "NODE_ENV=development node ./bin/www",
+    "debug": "NODE_ENV=development DEBUG=* node ./bin/www",
+    "prod": "NODE_ENV=development pm2 start ./bin/www  --name ENTER_NAME_HERE",
     "prod_local": "NODE_ENV=production node ./bin/www "
   },
   "dependencies": {

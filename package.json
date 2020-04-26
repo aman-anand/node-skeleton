@@ -1,0 +1,21 @@
+{
+  "name": "aman-skelton-node",
+  "description": "This is a skeleton repo for node starter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development nodemon ./bin/www",
+    "debug": "NODE_ENV=development DEBUG=commonServices node ./bin/www",
+    "prod": "NODE_ENV=production pm2 start ./bin/www  --name <ENTER NAME HERE>",
+    "prod_local": "NODE_ENV=production node ./bin/www "
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "mongoose": "^5.9.10",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "~1.9.1"
+  }
+}

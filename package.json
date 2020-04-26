@@ -19,7 +19,6 @@
     "prod": "NODE_ENV=development pm2 start ./bin/www  --name ENTER_NAME_HERE",
     "prod_local": "NODE_ENV=production node ./bin/www ",
     "ins_deps": "npm ci",
-    "release": "semantic-release"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
